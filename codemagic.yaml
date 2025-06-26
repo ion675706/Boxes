@@ -7,13 +7,13 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.ramildriorius
+        bundle_identifier: com.anselhawthorne
       vars:
-        BUNDLE_ID: "com.ramildriorius"
-        XCODE_PROJECT: "Puzzles.xcodeproj" # Убедитесь, что имя проекта указано правильно
-        XCODE_SCHEME: "Puzzles" # Убедитесь, что имя схемы указано правильно
-        APP_STORE_APPLE_ID: 6747810466
-        TEAM_ID: "SC3Z8K3L7A"  # Ваш Team ID
+        BUNDLE_ID: "com.anselhawthorne"
+        XCODE_PROJECT: "Boxes.xcodeproj" # Убедитесь, что имя проекта указано правильно
+        XCODE_SCHEME: "Boxes" # Убедитесь, что имя схемы указано правильно
+        APP_STORE_APPLE_ID: 6747821729
+        TEAM_ID: "2F3NPTARN8"  # Ваш Team ID
       xcode: 16.3
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
@@ -40,7 +40,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - lomin5253@gmail.com
+          - ion675706@gmail.com
         notify:
           success: true
           failure: false
