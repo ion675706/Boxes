@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "arrow_back_ios_new.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
